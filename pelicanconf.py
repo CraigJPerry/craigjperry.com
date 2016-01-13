@@ -20,19 +20,20 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('GitHub', 'https://github.com/CraigJPerry'),
+)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('Twitter', 'https://twitter.com/CraigJPerry'),
+)
 
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
 MD_EXTENSIONS = ['codehilite(linenums=False)']
+
+THEME = 'themes/svbhack'
+USER_LOGO_URL = '/img/me-small.jpg'
+TAGLINE = "Unix systems administrator. Python / Java / Web developer."

@@ -23,6 +23,9 @@ aside div#user_meta {
   padding: 40px;
   text-align: center;
 }
+aside div#user_meta img {
+  border-radius: 100%;
+}
 aside div#user_meta h2 {
   margin: 15px 0 5px 0;
 }

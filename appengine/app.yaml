@@ -10,5 +10,8 @@ handlers:
   static_files: blog/index.html
   upload: blog/index.html
  
+- url: /img
+  static_dir: static/img/
+ 
 - url: /
   static_dir: blog
