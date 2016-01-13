@@ -2,7 +2,7 @@ Title: Pelican Hosting on AppEngine
 Date: 2016-01-13 20:15
 Modified: 2016-01-13 22:30
 Category: Web Development
-Tags: python, pelican, git, appengine
+Tags: python, pelican, git, appengine, web
 Slug: pelican-hosting-on-appengine
 Authors: Craig J Perry
 Summary: How I made a fast personal site and hosted it on Google AppEngine.
