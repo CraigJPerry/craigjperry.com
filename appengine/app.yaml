@@ -1,0 +1,17 @@
+application: craigjperryblog
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /
+  static_files: blog/index.html
+  upload: blog/index.html
+ 
+- url: /img
+  static_dir: static/img/
+ 
+- url: /
+  static_dir: blog
